@@ -1,2 +1,2 @@
 # Ignore AutoRecovery directory
-*.autoRecovery/
+**/.autoRecovery
