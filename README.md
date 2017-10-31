@@ -5,7 +5,7 @@ Site language - English
 
 Eli - from 1 to 8
 
-stanislav - from 9 to 17
+stanislav - from 9 to 19
 
 cvet - from 20 to 28
 
