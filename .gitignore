@@ -1,2 +1,8 @@
 # Ignore AutoRecovery directory
-**/.autoRecovery
+*.screen binary
+*.screenpart binary
+*.stylesheet binary
+*.story binary
+*.proj binary
+.autorecover
+share.history
