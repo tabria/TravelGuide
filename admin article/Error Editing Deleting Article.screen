@@ -1,0 +1,363 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="ff061973-c413-49b3-a0d4-98b5b7d02ce9">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="8cc91a2a-f8be-4367-995e-607bbb393703">
+            <Content.Layers>
+                <Layer Id="f27e5fa5-0ae4-4d8c-8528-400f41f2467e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="165d4819-3079-4cfe-bfd1-9bb0f822bbe3" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="9853a6a1-6792-49cf-9d3d-f196fcdc824c" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1a591236-59e5-41ac-9b6f-2253e7dfd648" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 11:31:32" Id="756a8fd2-c7ca-4fa9-af4c-35260dc4afd4">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b09748cf-8f58-4689-8825-93459132e57a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Rectangle Color="#FFD7EDF2" Background="#FFD7EDF2" Id="a48424f1-217e-4b2d-b08b-72a7d285fade" Panel.Bounds="242,332,640{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Rectangle Background="#FFD8E5F0" Id="21cbaa69-1879-40b9-9dab-14d2c4805b62" Panel.Bounds="-7,0,238{5,2147483647},768{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Rectangle CornerRadius="8" Color="#FFE3DDEA" Background="#FFD8E5F0" Id="54f63e01-0afa-4e69-840f-57e1e502b1ad" Panel.Bounds="242,614,640{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <TextBox Text="Convallis tortor" Foreground="#FF555555" FontFamily="Arial Black" Id="c3bff575-dfae-40e8-9c6c-0937ceb556d8" Panel.Bounds="242,290,640{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <TextArea Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida neque eu magna scelerisque maximus. Donec nunc tellus, aliquet vehicula luctus et, fringilla eget massa. Etiam ut convallis tortor. Sed ullamcorper dapibus metus et lobortis. Donec vel risus id lectus facilisis fringilla. Suspendisse iaculis tristique semper. Proin in sem vel turpis dictum mattis id et tellus.&#xA;&#xA;Proin id eros pretium, fermentum erat eu, lacinia sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In at lectus id mi rutrum blandit at non massa. Aliquam condimentum massa elit, a tincidunt diam egestas egestas. Donec posuere vestibulum mi id tincidunt. Maecenas in pulvinar mauris." Border="#FFD8E5F0" Background="#FFFFFFFF" FontFamily="Open Sans" Id="7e039718-8d6c-49e4-8e76-30ea48ee5c04" Panel.Bounds="242,361,640{5,2147483647},268{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Image SourcePath="assets/paris_640x480.jpg" Id="a3f11e13-59a4-44fc-9b68-5e5977f6e027" Panel.Bounds="242,122,215{5,2147483647},156{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Button Text=" Browse..." CornerRadius="12" FontFamily="Arial Black" Id="19993dbb-99df-44d6-9fc8-d0f5e81c926e" Panel.Bounds="509,253,127{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="Article Image:" FontFamily="Arial Black" Id="f1102472-cc56-4210-ab7f-46e7e4693f5d" Panel.Bounds="118,122,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="Article Title:" FontFamily="Arial Black" Id="a0a8b12c-ab0c-4654-bced-273035d94ced" Panel.Bounds="118,290,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="Content:" FontFamily="Arial Black" Id="54f48760-d623-490b-80bc-241d62c7cb69" Panel.Bounds="147,336,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Button Text="Edit" Background="#FFA3E0AB" CornerRadius="14" FontFamily="Arial Black" Id="45b5403c-d72b-40de-a3af-40b68420b939" Panel.Bounds="602,663,132{5,2147483647},43{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Button Text="Cancel" Background="#FFAFDAE6" CornerRadius="14" FontFamily="Arial Black" Id="50a13d2d-eedb-43ae-97ce-58ae3a18a935" Panel.Bounds="745,663,132{5,2147483647},43{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Title RichText="&lt;Run Foreground=&quot;#FF2C768A&quot; &gt;Edit Article&lt;/Run&gt;" FontSize="30" FontFamily="Arial Black" Id="18d72e11-b114-4b0f-9fc1-90bd01088ee6" Panel.Bounds="40,51,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="9bb2c5eb-8482-4678-8dcd-52165c10af09" Panel.Bounds="888,290,24{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="Edit" Id="fa4b925d-302b-4372-bc11-6eba1c39bb5f" Panel.Bounds="888,367,24{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-align-justify" Id="47d9f3d8-19a9-42bf-b8f8-d04e0a9eb9a5" Panel.Bounds="598,338,20{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-align-left" Id="2e2dd31c-b9d0-48a6-88f9-f76623eeaf90" Panel.Bounds="622,338,21{5,2147483647},21{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-align-center" Id="7f6aaa44-3bd5-4bd4-adca-80b443bf949b" Panel.Bounds="548,337,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-align-right" Id="8ecbc507-3631-4674-ad77-561b067b3ac5" Panel.Bounds="572,337,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-folder-open" Id="5bc5c3c6-deb8-446a-8f17-7c1491f94ffa" Panel.Bounds="473,242,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-bold" Id="3e081538-855f-49ab-a149-c26fb3ae206c" Panel.Bounds="663,337,21{5,2147483647},21{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-italic" Id="8dbac251-884c-4055-a0e8-fae5c12425c4" Panel.Bounds="682,337,21{5,2147483647},21{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-crop" Id="3c32e866-8da7-47a0-a67c-995e8bef25a0" Panel.Bounds="469,180,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-strikethrough" Id="d497d1be-edb1-4cbe-bf57-1ee53056560b" Panel.Bounds="732,336,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-text-width" Id="104456a9-1545-4480-87a6-b8a03cfa89dc" Panel.Bounds="800,337,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-undo" Id="9b4c224d-5e27-4690-94fd-2fc347df76a2" Panel.Bounds="469,158,20{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-adjust" Id="c14fbb43-eb19-42e6-be19-6b3de99e88d3" Panel.Bounds="468,134,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-text-height" Id="45928de7-8bc5-455b-8b6a-73b0c47dfd7f" Panel.Bounds="773,337,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-underline" Id="0626edb9-82ed-4226-a25e-fd324ac24dcc" Panel.Bounds="704,337,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="Rotate:" Foreground="#FF717171" FontFamily="Arial Black" Id="edfc3300-1647-46e7-b2a6-5899797106be" Panel.Bounds="495,159,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="Brightness:" Foreground="#FF717171" FontFamily="Arial Black" Id="c25536fc-1336-4ac8-9c99-3226878f52e9" Panel.Bounds="495,136,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Label RichText="&lt;Run TextDecorations=&quot;Underline&quot; &gt;Crop&lt;/Run&gt;" Foreground="#FF717171" FontFamily="Arial Black" Id="53cee43d-a6e5-489d-8627-14ea285f30e7" Panel.Bounds="495,182,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <ComboBox Hint="Sans Serif" FontFamily="Arial Black" Id="b8727ea4-5c34-40fd-9f57-6cee877b5af3" Panel.Bounds="245,335,147{5,2147483647},23{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Arial" Id="21d740a8-fa6e-44e0-80e8-9760b7d0e40b" />
+                                        <Item Text="Item 2" Id="e75c4610-2a59-4b48-b418-3806d1245b8e" />
+                                        <Item Text="New Item" Id="4c503415-8047-4649-b8c2-bdbd1d52e53b" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Slider Value="62" Id="a7b4bf5d-81cf-42c0-9be6-b40e1771dfcc" Panel.Bounds="594,159,100{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Slider Value="42" Id="90192a50-15d1-499b-bc3e-c46cad9c49df" Panel.Bounds="594,136,100{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <ComboBox Hint="24pt" FontFamily="Arial Black" Id="7c25c453-00c3-4767-a5fa-0c8b9ac99327" Panel.Bounds="395,335,81{5,2147483647},24{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Item 1" Id="626833b1-6833-4e3c-8d5f-8c7deade0c8e" />
+                                        <Item Text="Item 2" Id="2149cec7-4f0b-4461-816f-f5f623508cb8" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="linea-paintbucket" Id="adcd2583-5eeb-4e60-9e6f-cd8269a41874" Panel.Bounds="485,335,23{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-anchor" Id="34070ce9-6c76-4f33-9905-9f797f6c5db1" Panel.Bounds="841,336,22{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Rectangle Background="#FF000000" Id="4c01ecc8-b10a-4ad7-9a32-b3943db41d73" Panel.Bounds="513,339,20{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Line Thickness="1" Color="#FF2C768A" Background="#00FFFFFF" Id="d39edaa2-ae9b-4ccb-8a87-d4b91b183385" Panel.Bounds="39,91,187{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="-67" Id="69509d95-50da-414a-b1a8-7e892e7f44fa" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="b4b0118a-f2d2-4740-b049-4e0acf207eef">
+                                            <Segment.EndPoint>
+                                                <Point X="120" Id="d8ea4d60-339a-4c7c-9c72-21f91c97c1e3" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Rectangle Background="#FFAAAAAA" Opacity="0.4" Id="958a1a4e-e791-4cba-93cf-370afd7ad8ba" Panel.Bounds="-2,0,1028{5,2147483647},768{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="37b701d7-7a3b-4818-83e0-01210b394ec3" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e081654f-09c9-43e4-8cd6-c68d01c79ee3" Panel.Bounds="298,201,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle CornerRadius="1" Color="#FFFF7373" Background="#FFFFFFFF" Id="fb140524-ce6a-42c0-8fd7-71da295c55c9" Panel.Bounds="0,0,483{5,2147483647},268{5,2147483647}" />
+                                        <Title RichText="&lt;Run FontSize=&quot;25&quot; Foreground=&quot;#FF555555&quot; &gt;Error message!&lt;/Run&gt;" FontSize="25" FontFamily="Arial Black" FontStyle="Bold" Id="37b701d7-7a3b-4818-83e0-01210b394ec3" Panel.Bounds="129,115,341{5,2147483647},37{5,2147483647}" />
+                                        <Button Text="Ok" Background="#FFFFFFFF" CornerRadius="8" Foreground="#FF717171" FontSize="20" FontFamily="Arial Black" Id="373e1771-a36c-448a-829b-9bb4f348eefa" Panel.Bounds="149,188,174{5,2147483647},46{5,2147483647}" />
+                                        <Icon Color="#FFC40000" CatalogId="linea-circle-remove" Id="82c3776f-777b-4c37-a61b-e8038ea21ff1" Panel.Bounds="196,25,75{5,2147483647},75{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="a48424f1-217e-4b2d-b08b-72a7d285fade" Target="f27e5fa5-0ae4-4d8c-8528-400f41f2467e">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="788c94a6-145c-4dc1-81f4-24a1e59cfc23" Panel.Bounds="395,6,0*,0*">
+                                    <Group.Children>
+                                        <Group GroupName="Group" Id="168d80af-54f2-48ee-8650-05781ed87b24" Panel.Bounds="-47,0,0*,0*">
+                                            <Group.Children>
+                                                <Link Text="  home" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="9abd4500-9c91-4124-99e7-618376940e49" Panel.Bounds="47,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Line Thickness="4" Background="#00FFFFFF" Id="ee27704e-0fa8-406c-bf6b-4a0c97c334f9" Panel.Bounds="48,22,61,4">
+                                                    <Line.StartPoint>
+                                                        <Point Id="a2dee6f6-fd40-4434-b3a4-77d428dadcb6" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="e8cf0918-03eb-4824-8c11-d4f9c7680f1f">
+                                                            <Segment.EndPoint>
+                                                                <Point X="120" Id="060ad4b3-972b-40b9-b9f0-5e93771ce056" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                            </Group.Children>
+                                        </Group>
+                                        <Group GroupName="Group" Id="ddd4d37a-2294-45b2-b0db-2fa619249cac" Panel.Bounds="41,-1,0*,0*">
+                                            <Group.Children>
+                                                <Link Text="manage articles " Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="d47f4462-d2ef-41ed-b54e-e74772ca3f9d" Panel.Bounds="29,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Line Thickness="4" Background="#00FFFFFF" Id="4af1a17f-c674-4286-8e3a-74a633198ce7" Panel.Bounds="22,23,135,4">
+                                                    <Line.StartPoint>
+                                                        <Point Id="1b5d3760-4fc1-450a-9749-8e5d89f5cd85" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="9a67876e-4b20-411f-900f-cc1333b174c7">
+                                                            <Segment.EndPoint>
+                                                                <Point X="120" Id="87ebf331-b9bc-46a5-9dca-181e21f676db" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                            </Group.Children>
+                                        </Group>
+                                        <Group GroupName="Group" Id="14c7bcc1-bf82-4c5d-9940-d94dfee8bb8c" Panel.Bounds="173,-1,0*,0*">
+                                            <Group.Children>
+                                                <Link Text="manage comments " Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="bd28d901-b863-4b6c-b36d-8066caa21197" Panel.Bounds="32,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Line Thickness="4" Background="#00FFFFFF" Id="c1ce4475-ddae-4980-ad5b-31753de70256" Panel.Bounds="26,23,160,4">
+                                                    <Line.StartPoint>
+                                                        <Point X="13" Id="3af39b70-7e09-4cca-aef9-a9aa5e2b2fa1" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="7988464d-4ab9-47ce-b6f7-450d550e2ba1">
+                                                            <Segment.EndPoint>
+                                                                <Point X="171" Id="294cdd7c-c564-4afc-9dbb-1220ef8b0eb1" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                            </Group.Children>
+                                        </Group>
+                                        <Group GroupName="Group" Id="68c07482-9ec7-4f5d-b954-9aacc4a18a48" Panel.Bounds="334,-1,0*,0*">
+                                            <Group.Children>
+                                                <Link Text="manage locations" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="43807214-55ba-4724-90ca-d70f6eaa7e43" Panel.Bounds="36,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Line Thickness="4" Background="#00FFFFFF" Id="3f4df713-8c0b-4802-8073-308d733ce3ce" Panel.Bounds="29,23,148,4">
+                                                    <Line.StartPoint>
+                                                        <Point X="16" Id="9ba935b8-8135-49b1-9788-9e80076a9d8b" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="b1071138-0066-4cf0-ad07-52e9b4896597">
+                                                            <Segment.EndPoint>
+                                                                <Point X="157" Id="69f64a09-b697-4134-9e97-34d167317238" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                            </Group.Children>
+                                        </Group>
+                                        <Group GroupName="Group" Id="8d7ec9c8-814d-48eb-abe0-688f6f6828b2" Panel.Bounds="481,-1,0*,0*">
+                                            <Group.Children>
+                                                <Link Text="admin logout" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="238d0005-1838-43be-bfb0-3385c46ea8a3" Panel.Bounds="36,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Line Thickness="4" Background="#00FFFFFF" Id="6a221451-626b-4bdc-a017-b5fee339b0ee" Panel.Bounds="31,23,114,4">
+                                                    <Line.StartPoint>
+                                                        <Point X="18" Id="019bd6ef-5f19-4ae2-b27c-4104645c15e4" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="aeb398ef-afb4-41fd-a736-1ae491a87fae">
+                                                            <Segment.EndPoint>
+                                                                <Point X="128" Id="43a93677-4071-4d42-a54a-9241d981f574" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                            </Group.Children>
+                                        </Group>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
