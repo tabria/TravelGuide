@@ -6,8 +6,7 @@
 *.proj binary
 .autorecover
 share.history
-*.screen
 *.screenpart
 *.stylesheet
 *.story
-*.proj
+_archive
