@@ -212,7 +212,7 @@
                                 <Image SourcePath="assets/Screenshot-2017-10-31 Jauntlet - Social Travel Blogs to Share on Facebook.jpg" Id="42167feb-1a04-4ee1-8950-70bfd056fc05" Panel.Bounds="800,211,180,363" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="b950f636-d06c-40ae-80ed-450ced5baf26" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
                             <Add.Item>
                                 <Group GroupName="Group" IsVisible="False" Id="781b5341-7762-45c5-b8fb-30ba54ac274c" Panel.Bounds="-280,-16,0*,0*">
                                     <Group.Children>
@@ -289,6 +289,44 @@
                                             </Line.Segments>
                                         </Line>
                                     </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="448658c7-0b9b-4a3e-b61e-f2dd2e1d27b1" Panel.Bounds="310,593,0*,0*">
+                                    <Group.Children>
+                                        <Image SourcePath="assets/Seine-nuit-_-740x380-_-©-Thinkstock.jpg" Id="e40247cc-3374-4559-9c72-42df7e066659" Panel.Bounds="0,0,195{5,2147483647},134{5,2147483647}" />
+                                        <Label RichText="This is a quick trip to France, which should be the perfect combination of history, fun, and sun. &#xD;&#xA;&#xD;&#xA;" FontFamily="Georgia" Id="22feb8dc-e286-4785-8d8b-6358bf900aef" Panel.Bounds="0,211,195{5,2147483647},68{5,2147483647}" />
+                                        <Label RichText="Paris " FontSize="14" FontFamily="Georgia" Id="e4f67925-dcfb-4fa3-8d34-c3a2599a38f2" Panel.Bounds="0,149,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Kris A" FontSize="14" FontFamily="Georgia" Id="f158262f-153f-47cb-91e2-33160044d6cb" Panel.Bounds="0,180,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/02.ArticlePage.screen" Created="11/05/2017 08:46:11" Id="83a81c9c-e019-4d4c-8c2d-67ba27ccd975">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="e34fdc6f-b6b2-48e7-9751-c152f659b4c3" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e79bcbd5-5a3d-4396-a0c2-89dd3f68aaa1" Panel.Bounds="586,593,0*,0*">
+                                    <Group.Children>
+                                        <Image SourcePath="assets/Budapest.jpg" Id="cd473ff6-9365-4ad1-9c7c-30a78c7b057e" Panel.Bounds="5,0,195{5,2147483647},134{5,2147483647}" />
+                                        <Label RichText="This is a quick trip to Hungary, which should be the perfect combination of history, fun, and sun. &#xD;&#xA;&#xD;&#xA;" FontFamily="Georgia" Id="e34fdc6f-b6b2-48e7-9751-c152f659b4c3" Panel.Bounds="5,211,195{5,2147483647},68{5,2147483647}" />
+                                        <Label RichText=" Budapest holidays" FontSize="14" FontFamily="Georgia" Id="fbb6f7fd-25e2-46ab-91dc-8536cfae5067" Panel.Bounds="0,149,120{5,2147483647},16*{5,2147483647}" />
+                                        <Label RichText="Alan Smith" FontSize="14" FontFamily="Georgia" Id="9818d23c-fffe-4c02-a58e-f686d6b069d8" Panel.Bounds="5,180,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/02.ArticlePage.screen" Created="11/05/2017 08:52:38" Id="df67ae5b-367b-4ce4-b21d-b4a0ea9fde01">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>

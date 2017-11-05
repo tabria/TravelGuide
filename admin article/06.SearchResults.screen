@@ -25,7 +25,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Grid FontSize="13" HeaderFontSize="13" Id="5d0e9bc0-8de8-46c0-8ee1-76cb736a9315" Panel.Bounds="133,184,773{5,2147483647},441{5,2147483647}">
+                                <Grid FontSize="13" HeaderFontSize="13" Id="5d0e9bc0-8de8-46c0-8ee1-76cb736a9315" Panel.Bounds="333,182,552{5,2147483647},441{5,2147483647}">
                                     <Grid.HeaderRow>
                                         <GridHeaderRow FontStyle="" Height="32" Id="74894fdc-b03e-4837-8655-b3ea179f9e5f" />
                                     </Grid.HeaderRow>
@@ -33,11 +33,6 @@
                                         <GridColumn ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Type="Text" Width="44" Id="9336f617-ba06-4a19-87f3-5e8ff41b917e">
                                             <GridColumn.CellData>
                                                 <GridCellData ColumnId="6f75476e-4fa1-4685-8ac2-9222ce3c9cc8" Value="№" Opacity="1" Id="8ed70537-7bc8-418f-8c0e-869c8a6ac3be" />
-                                            </GridColumn.CellData>
-                                        </GridColumn>
-                                        <GridColumn ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Type="Text" Width="100" Id="664ffff0-7d1a-4f31-96e4-47141ea855ea">
-                                            <GridColumn.CellData>
-                                                <GridCellData ColumnId="5b631957-9ed3-406b-90c3-85138b20429a" Value="Article ID" Opacity="1" Id="9973ffe6-ff61-4496-9635-5bc9d2b50426" />
                                             </GridColumn.CellData>
                                         </GridColumn>
                                         <GridColumn ColumnId="219a5bf1-0cd0-4ee1-919e-d8f58f5c7f9d" Type="Text" Width="164" Id="20b6ba8e-c490-4111-9209-ba7b26b3be30">
@@ -48,11 +43,6 @@
                                         <GridColumn ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Type="Text" Width="203" Id="3e92282a-9af5-4844-a599-6b6cce89fd36">
                                             <GridColumn.CellData>
                                                 <GridCellData ColumnId="5b2841b6-4622-489d-b25c-6033d78afd08" Value="Description" Opacity="1" Id="e65ca7ea-3f7f-4991-a735-81b2a70e6caa" />
-                                            </GridColumn.CellData>
-                                        </GridColumn>
-                                        <GridColumn ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Type="Text" Width="120" Id="4d266112-011e-4fd1-ae63-fb2c8668b12e">
-                                            <GridColumn.CellData>
-                                                <GridCellData ColumnId="6c61da57-0f0e-4175-bb5d-659ffd89df5a" Value="Comments" Opacity="1" Id="d4dd12c7-8b62-4d9c-8190-20599270d8aa" />
                                             </GridColumn.CellData>
                                         </GridColumn>
                                         <GridColumn ColumnId="fb38afdf-a156-4259-a83e-d3682845d981" Type="Text" Width="123" Id="a59218a6-58ad-4828-8674-8c7fba65c8b9">
@@ -188,57 +178,42 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="1" Foreground="#FF830000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Panel.Bounds="417,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="1" Foreground="#FF830000" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Panel.Bounds="564,674,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="2" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="ae0fe66f-3939-4017-a9ac-625f50b71cda" Panel.Bounds="438,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="2" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="ae0fe66f-3939-4017-a9ac-625f50b71cda" Panel.Bounds="591,675,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="3" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="bcee020e-03f2-4107-bf56-c0dc806f6be9" Panel.Bounds="460,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="3" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="bcee020e-03f2-4107-bf56-c0dc806f6be9" Panel.Bounds="613,675,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="4" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="82453551-4177-44dc-a24a-2d1dd11e5d9e" Panel.Bounds="481,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="..." Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="5a7fa2d3-c29a-42dd-8475-de56a44ac455" Panel.Bounds="639,675,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="5" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="e04f30a1-7e3b-492c-a433-a7c449724c24" Panel.Bounds="502,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Icon Color="#FF1C416F" CatalogId="fa-angle-double-right" Id="56c81b84-8faf-4c38-9b14-ae56fc9b1ee7" Panel.Bounds="668,674,32{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="6" Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="02009bc4-a74f-4a7b-b7b1-fa1e87705b08" Panel.Bounds="524,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Icon Color="#FF000000" CatalogId="fa-angle-double-left" IsEnabled="False" Id="fbf571ad-2ce8-469e-a455-2160af48766b" Panel.Bounds="534,671,35{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Link Text="..." Foreground="#FF1C416F" FontSize="21" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="5a7fa2d3-c29a-42dd-8475-de56a44ac455" Panel.Bounds="544,681,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Search Results" FontSize="36" FontFamily="Arial Black" Id="7a14a9d2-90a9-4b08-99ad-21e6460f43f9" Panel.Bounds="99,92,0*,0*" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Icon Color="#FF1C416F" CatalogId="fa-angle-double-right" Id="56c81b84-8faf-4c38-9b14-ae56fc9b1ee7" Panel.Bounds="573,680,32{5,2147483647},32{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Icon Color="#FF000000" CatalogId="fa-angle-double-left" IsEnabled="False" Id="fbf571ad-2ce8-469e-a455-2160af48766b" Panel.Bounds="372,678,35{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Title RichText="Search Results" FontSize="36" FontFamily="Arial Black" Id="7a14a9d2-90a9-4b08-99ad-21e6460f43f9" Panel.Bounds="130,83,0*,0*" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Line Type="Custom" Thickness="1" Color="#FF2C768A" Background="#00FFFFFF" Id="6dad312b-921e-4baa-9ead-b07567928e58" Panel.Bounds="130,132,335{1,2147483647},3{1,2147483647}">
+                                <Line Type="Custom" Thickness="1" Color="#FF2C768A" Background="#00FFFFFF" Id="6dad312b-921e-4baa-9ead-b07567928e58" Panel.Bounds="80,145,335{1,2147483647},3{1,2147483647}">
                                     <Line.StartPoint>
                                         <Point X="-101" Id="49b6b351-488d-407b-bc4c-0fa958a730fc" />
                                     </Line.StartPoint>
@@ -254,87 +229,27 @@
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Icon Color="#FF717171" CatalogId="fa-sort-alpha-asc" Id="77424682-a661-4cff-a936-92a219af76a9" Panel.Bounds="390,192,17{5,2147483647},17{5,2147483647}" />
+                                <Icon Color="#FF717171" CatalogId="fa-sort-alpha-asc" Id="77424682-a661-4cff-a936-92a219af76a9" Panel.Bounds="322,192,17{5,2147483647},17{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Icon Color="#FF717171" CatalogId="fa-sort-alpha-asc" Id="0771645e-00f7-4752-b7c5-f4cb17da5851" Panel.Bounds="850,192,17{5,2147483647},17{5,2147483647}" />
+                                <Icon Color="#FF717171" CatalogId="fa-sort-alpha-asc" Id="0771645e-00f7-4752-b7c5-f4cb17da5851" Panel.Bounds="631,192,17{5,2147483647},17{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="d469358f-15fe-44c4-95f0-5b539917681f" Panel.Bounds="761,113,239{5,2147483647},5*{5,2147483647}" />
+                                <TextBox FontFamily="Open Sans" Id="d469358f-15fe-44c4-95f0-5b539917681f" Panel.Bounds="646,110,239{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
-                                <Label RichText="Search article:" FontFamily="Open Sans" Id="cf587f70-3457-46b6-9018-8a3d417c09fa" Panel.Bounds="670,117,5*{5,2147483647},5*{5,2147483647}" />
+                                <Label RichText="Search article:" FontFamily="Open Sans" Id="cf587f70-3457-46b6-9018-8a3d417c09fa" Panel.Bounds="555,114,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
                             <Add.Item>
                                 <Icon CatalogId="fa-search" Id="b0ad560d-d62a-45c5-9fad-c5db211f4794" Panel.Bounds="765,116,18{5,2147483647},18{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="200" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="969605ca-23bb-4e9c-ad44-096d26299331" Panel.Bounds="685,223,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="12" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="2c4b090c-7c6e-4c1e-a914-53b7398f898c" Panel.Bounds="689,255,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="0" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="8d7629e0-edf3-44ec-ba02-651522517aeb" Panel.Bounds="694,287,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="13" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="e5f0583e-22d3-45bc-9444-de4577b7db88" Panel.Bounds="688,318,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="45" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="eb2f5d6f-761f-4cc5-9332-090d7a45e554" Panel.Bounds="688,350,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="4" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="16839f5c-acd6-4665-b31f-030714cfa007" Panel.Bounds="692,382,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="8" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="ab445927-c2a1-42f7-b880-aaff3f193558" Panel.Bounds="693,414,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="123" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="7178acdb-c5d2-439c-9cbf-c3f8415e0676" Panel.Bounds="683,446,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="56" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="5b36c009-9aee-44c8-ab47-85467b9da92b" Panel.Bounds="689,477,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="4" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="2085ee0d-99b6-409f-8454-139eb8663a0c" Panel.Bounds="692,510,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="0" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="7b80a187-865c-4371-b77c-fc5bcc8188b7" Panel.Bounds="693,542,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Before="bc2ccb2f-e7ab-454d-af2d-ea1d94ea308b" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
-                            <Add.Item>
-                                <Link Text="78" Foreground="#FF1C416F" FontFamily="Arial Black" FontStyle="Normal|Underline" Id="dd34bc1f-1934-4dac-ae9a-94efdb3c9735" Panel.Bounds="689,574,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="b641c4ca-d202-4805-965f-cdde3d1825b9">
