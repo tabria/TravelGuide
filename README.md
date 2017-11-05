@@ -3,14 +3,12 @@ Softuni TeamWork Project
 
 Site language - English
 
-Eli - from 1 to 8
+Eli - index, article page, advanced search, user login, register, user index
 
-stanislav - from 9 to 19
+stanislav - admin login, admin index, user comment on map, user add pictures on map, log out page
 
-cvet - from 20 to 28
+cvet - admin article CRUD - create, edit, delete article 
 
-ivka - from 29 to the End
+ivka - admin comments CRUD - create , edit, delete comments, manage map locations
 
 The project is in the TravelGuide.zip. Before pushing zip your project into TravelGuide.zip and then push
-
-Details will be released later.
