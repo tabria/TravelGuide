@@ -168,14 +168,14 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="4697e294-5ce9-4a2c-859c-2f827a9d073d" Panel.Bounds="630,297,0*,0*">
                                     <Group.Children>
-                                        <Line Thickness="4" RotationAngle="-14.7196597174933" Background="#00FFFFFF" Id="5f186132-bcb2-4a38-bed5-b851e46caedb" Panel.Bounds="18,206,118,31">
+                                        <Line Thickness="4" RotationAngle="-55.5735234185609" Background="#00FFFFFF" Id="5f186132-bcb2-4a38-bed5-b851e46caedb" Panel.Bounds="18,148,61,89">
                                             <Line.StartPoint>
                                                 <Point X="-24" Y="2" Id="fbf5a7ed-4d62-4c1d-a806-232444590945" />
                                             </Line.StartPoint>
                                             <Line.Segments>
                                                 <Segment Id="14cbb8ab-0fab-426c-93e8-6d07a6ed710b">
                                                     <Segment.EndPoint>
-                                                        <Point X="94" Y="-29" Id="dbf0bb54-3a5b-461e-ad43-834b0a2dc406" />
+                                                        <Point X="37" Y="-87" Id="dbf0bb54-3a5b-461e-ad43-834b0a2dc406" />
                                                     </Segment.EndPoint>
                                                 </Segment>
                                             </Line.Segments>
@@ -202,12 +202,12 @@
                                                 </Segment>
                                             </Triangle.Segments>
                                         </Triangle>
-                                        <TextArea FontFamily="Open Sans" Id="22cc45aa-6e78-4968-bb56-f5e2b38f54ae" Panel.Bounds="29,0,180{5,2147483647},213{5,2147483647}" />
-                                        <TextBox WatermarkText="Location" FontFamily="Open Sans" Id="0c8c798f-f394-45e1-942e-309fd37ab06f" Panel.Bounds="35,21,120{5,2147483647},5*{5,2147483647}" />
-                                        <TextArea WatermarkText="Location's Details from Google Map" Background="#FFE2E2E2" Foreground="#FF984646" FontFamily="Open Sans" Id="96e4a967-fa55-49c5-b7a1-0aeed8475710" Panel.Bounds="29,82,180{5,2147483647},86{5,2147483647}" />
-                                        <Button Text="save" FontSize="12" FontFamily="Open Sans" Id="a85e3b34-9202-46ba-9673-fef648082e00" Panel.Bounds="35,187,39{5,2147483647},17{5,2147483647}" />
-                                        <Button Text="cancel" FontSize="12" FontFamily="Open Sans" Id="01727e5f-8a90-4ebb-ac6f-402f431d466c" Panel.Bounds="81,187,46{5,2147483647},17{5,2147483647}" />
-                                        <Icon Id="3d3ec496-6775-41ba-8542-0380007a9445" Panel.Bounds="181,185,19{5,2147483647},19{5,2147483647}">
+                                        <TextArea FontFamily="Open Sans" Id="22cc45aa-6e78-4968-bb56-f5e2b38f54ae" Panel.Bounds="73,0,180{5,2147483647},331{5,2147483647}" />
+                                        <TextBox WatermarkText="Location" FontFamily="Open Sans" Id="0c8c798f-f394-45e1-942e-309fd37ab06f" Panel.Bounds="81,21,120{5,2147483647},5*{5,2147483647}" />
+                                        <TextArea WatermarkText="Location's Details from Google Map" Background="#FFE2E2E2" Foreground="#FF984646" FontFamily="Open Sans" Id="96e4a967-fa55-49c5-b7a1-0aeed8475710" Panel.Bounds="75,201,180{5,2147483647},86{5,2147483647}" />
+                                        <Button Text="save" FontSize="12" FontFamily="Open Sans" Id="a85e3b34-9202-46ba-9673-fef648082e00" Panel.Bounds="81,306,39{5,2147483647},17{5,2147483647}" />
+                                        <Button Text="cancel" FontSize="12" FontFamily="Open Sans" Id="01727e5f-8a90-4ebb-ac6f-402f431d466c" Panel.Bounds="127,306,46{5,2147483647},17{5,2147483647}" />
+                                        <Icon Id="3d3ec496-6775-41ba-8542-0380007a9445" Panel.Bounds="227,304,19{5,2147483647},19{5,2147483647}">
                                             <Icon.Click>
                                                 <CommandNavigate Screen="/userMapPlaygroundAddPhoto.screen" Created="10/31/2017 14:12:15" Id="29b85144-3a71-4a0d-b2a2-cd6a8b8ed268">
                                                     <CommandNavigate.Transition>
@@ -216,8 +216,9 @@
                                                 </CommandNavigate>
                                             </Icon.Click>
                                         </Icon>
-                                        <Label RichText="Leave comment" FontFamily="Open Sans" Id="09ddb2ed-5ecf-4b05-a0d9-afb832770757" Panel.Bounds="36,-1,5*{5,2147483647},5*{5,2147483647}" />
-                                        <TextArea WatermarkText="coment goes here" FontFamily="Open Sans" Id="50c1e15c-c9ee-4ec0-b539-545c784e359f" Panel.Bounds="35,48,168{5,2147483647},31{5,2147483647}" />
+                                        <Label RichText="Leave comment" FontFamily="Open Sans" Id="09ddb2ed-5ecf-4b05-a0d9-afb832770757" Panel.Bounds="82,-1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <TextArea WatermarkText="coment goes here" FontFamily="Open Sans" Id="50c1e15c-c9ee-4ec0-b539-545c784e359f" Panel.Bounds="81,161,168{5,2147483647},31{5,2147483647}" />
+                                        <Image Id="b881af13-6a73-4b76-960b-fe693896a025" Panel.Bounds="82,55,164{5,2147483647},98{5,2147483647}" />
                                     </Group.Children>
                                 </Group>
                             </Add.Item>

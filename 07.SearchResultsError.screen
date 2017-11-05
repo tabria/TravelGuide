@@ -1,0 +1,175 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="720d5a3c-8020-4054-93a8-ead6666c6d7e">
+    <Page.Content>
+        <Content Width="1025" Height="767" Id="3fca2baf-c39b-4e37-ad65-c86b899601f1">
+            <Content.Layers>
+                <Layer Id="4ce84771-f20d-4846-853d-dad4ab51a916" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e70dfa45-c137-4266-ac40-9a736213d0c2" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="dceba3a4-e7b1-43f3-9128-70d103d119d6" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9379a323-cd6d-42c9-8eb8-4bc3fa36538d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 19:04:58" Id="180c2383-7389-4ead-a445-9bc439c490c5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="07c338bd-f569-463b-b594-5070e4d194e3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Title RichText="Advanced Search" FontFamily="Georgia" Id="5f74fcd4-0770-4e97-97b9-ffc9506c17b3" Panel.Bounds="358,36,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" FontFamily="Georgia" Id="3820f5c4-c15b-4438-ac72-1f751411dd3c" Panel.Bounds="83,167,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Airline" Id="78dded61-dfd5-4e78-ae1d-f8174dee57e7" />
+                                        <Item Text="Bus" Id="8e085e7d-a546-4ca7-b5a5-0a60d92f01a8" />
+                                        <Item Text="Rail" Id="a9dec92e-a876-43fe-a828-d635510aaa22" />
+                                        <Item Text="Car rental" Id="01f6ddf2-b919-465e-af4c-7cc2953a48a2" />
+                                        <Item Text="Ferry/boat" Id="cde57fbf-6595-43e1-ac54-1e7c28838afa" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Search by category" FontSize="16" FontFamily="Georgia" Id="ce574b8e-f164-4f93-943e-0034276ede13" Panel.Bounds="88,122,150{5,2147483647},33{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Additional Search Options" FontSize="16" FontFamily="Georgia" Id="5696399f-78e0-4cb0-8f80-da816ba0185d" Panel.Bounds="373,122,194{5,2147483647},24{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <TextBox FontSize="16" FontFamily="Georgia" Id="07c20301-3573-4b32-b20f-3239f99d1432" Panel.Bounds="376,191,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Nearby Events" FontSize="16" FontFamily="Georgia" Id="0868c67f-7e3e-4bf8-9a33-f94eef1736db" Panel.Bounds="372,167,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Price Range" FontFamily="Georgia" Id="86706b22-990a-41b9-b729-9b87d35d9b28" Panel.Bounds="376,235,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Slider Id="d9c4de6e-597f-4924-8c66-9560ae35c71d" Panel.Bounds="377,262,118{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;10&lt;/Run&gt;" FontFamily="Georgia" Id="18597620-3d62-4fff-ae7c-e2c86d3ce3e0" Panel.Bounds="365,282,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="10000" FontSize="16" FontFamily="Georgia" Id="05091b3e-221d-44d2-973f-ba60ec94d00b" Panel.Bounds="486,282,52{5,2147483647},21{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Location" FontSize="16" FontFamily="Georgia" Id="f1d9596f-1902-4c3e-a735-bc9858b67328" Panel.Bounds="377,339,72{5,2147483647},19*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" FontFamily="Georgia" Id="09d364e6-8981-4c2c-9337-26f3ea1e3e45" Panel.Bounds="377,378,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Europe" Id="22cbe5bc-7a0b-4aa9-ae7e-1e043a1fff16" />
+                                        <Item Text="Africa" Id="b069e886-9f42-4665-b864-b52962ad21bc" />
+                                        <Item Text="Asia" Id="f2ca0054-2632-4cde-9e11-d437f68ec05a" />
+                                        <Item Text="North America" Id="ca354bbf-430a-40dd-9f22-94a9552ac506" />
+                                        <Item Text="South America" Id="8afce08a-f8c9-42d7-a5c4-4253a6082d3f" />
+                                        <Item Text="Australia" Id="b33d85f2-2f2a-4786-8638-4dbcd2ed5275" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Label RichText="Additional Keywords" FontSize="16" FontFamily="Georgia" Id="960d214b-3325-496d-9dfc-f16742870643" Panel.Bounds="693,122,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <TextBox FontSize="16" FontFamily="Georgia" Id="56d146d1-8fea-4cc6-b3cb-f17d2773b1cd" Panel.Bounds="675,191,237{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" FontFamily="Georgia" Id="451e7055-b1bd-4243-b933-c5b91e90f073" Panel.Bounds="675,270,237{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Match Any" Id="9768a6de-a462-46af-8ae9-ccde2c032b1d" />
+                                        <Item Text="Match All" Id="9f94ab9a-4f09-4c7d-8c91-00f4a5635c86" />
+                                        <Item Text="Exact Phrase" Id="2339d6f9-11d5-4440-947d-5705be45eee6" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Button Text="Search" CornerRadius="9" FontSize="16" FontFamily="Georgia" Id="822f289a-eb18-4af7-8052-771b902660e4" Panel.Bounds="675,478,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Button Text="Cancel" CornerRadius="9" FontSize="16" FontFamily="Georgia" Id="74becf42-3014-488a-8ecf-4cf21083db65" Panel.Bounds="775,478,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/01.StartIndex .screen" Created="11/04/2017 19:31:31" Id="183a486a-d49b-4a3a-aab0-0026fc1571ae">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4ce84771-f20d-4846-853d-dad4ab51a916">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="db7a0711-ebfc-412a-95d0-11a3f73eba57" Panel.Bounds="298,201,0*,0*">
+                                    <Group.Children>
+                                        <Rectangle CornerRadius="1" Color="#FFFF7373" Background="#FFFFFFFF" Id="dd0c28f4-2084-4624-a620-7db25a4de536" Panel.Bounds="0,0,483{5,2147483647},268{5,2147483647}" />
+                                        <Title RichText="No matches!" Align="Center" FontSize="25" FontFamily="Arial Black" FontStyle="Bold" Id="01122c91-1cc9-400a-902d-b8d9f9725e27" Panel.Bounds="129,115,226{5,2147483647},37{5,2147483647}">
+                                            <Title.Click>
+                                                <CommandNavigate Screen="/05.AdvancedSearch.screen" Created="11/05/2017 07:43:01" Id="7c9b7934-54d0-41bf-80f2-22767954679b">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Title.Click>
+                                        </Title>
+                                        <Button Text="Ok" Background="#FFFFFFFF" CornerRadius="8" Foreground="#FF717171" FontSize="20" FontFamily="Arial Black" Id="027933a7-88c0-4ce4-8232-103f012d8f27" Panel.Bounds="149,188,174{5,2147483647},46{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/05.AdvancedSearch.screen" Created="11/05/2017 07:43:45" Id="b376ae93-6cb5-4a4f-b64c-a6fe2edd4ec1">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Icon Color="#FFC40000" CatalogId="linea-circle-remove" Id="9b68f19c-8f7a-4fe0-93ee-587e9659a28c" Panel.Bounds="196,25,75{5,2147483647},75{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

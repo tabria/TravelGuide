@@ -202,23 +202,18 @@
                                                 </Segment>
                                             </Triangle.Segments>
                                         </Triangle>
-                                        <TextArea FontFamily="Open Sans" Id="22cc45aa-6e78-4968-bb56-f5e2b38f54ae" Panel.Bounds="29,0,180{5,2147483647},213{5,2147483647}" />
-                                        <TextBox WatermarkText="Location" FontFamily="Open Sans" Id="0c8c798f-f394-45e1-942e-309fd37ab06f" Panel.Bounds="35,21,120{5,2147483647},5*{5,2147483647}" />
+                                        <TextArea FontFamily="Open Sans" Id="22cc45aa-6e78-4968-bb56-f5e2b38f54ae" Panel.Bounds="29,41,180{5,2147483647},172{5,2147483647}" />
                                         <TextArea WatermarkText="Location's Details from Google Map" Background="#FFE2E2E2" Foreground="#FF984646" FontFamily="Open Sans" Id="96e4a967-fa55-49c5-b7a1-0aeed8475710" Panel.Bounds="29,82,180{5,2147483647},86{5,2147483647}" />
-                                        <Button Text="save" FontSize="12" FontFamily="Open Sans" Id="a85e3b34-9202-46ba-9673-fef648082e00" Panel.Bounds="35,187,39{5,2147483647},17{5,2147483647}" />
-                                        <Button Text="cancel" FontSize="12" FontFamily="Open Sans" Id="01727e5f-8a90-4ebb-ac6f-402f431d466c" Panel.Bounds="81,187,46{5,2147483647},17{5,2147483647}" />
-                                        <Icon Id="3d3ec496-6775-41ba-8542-0380007a9445" Panel.Bounds="181,185,19{5,2147483647},19{5,2147483647}">
-                                            <Icon.Click>
-                                                <CommandNavigate Screen="/userMapPlaygroundAddPhoto.screen" Created="10/31/2017 14:12:15" Id="29b85144-3a71-4a0d-b2a2-cd6a8b8ed268">
-                                                    <CommandNavigate.Transition>
-                                                        <NavigateTransition Duration="0" />
-                                                    </CommandNavigate.Transition>
-                                                </CommandNavigate>
-                                            </Icon.Click>
-                                        </Icon>
-                                        <Label RichText="Leave comment" FontFamily="Open Sans" Id="09ddb2ed-5ecf-4b05-a0d9-afb832770757" Panel.Bounds="36,-1,5*{5,2147483647},5*{5,2147483647}" />
-                                        <TextArea WatermarkText="coment goes here" FontFamily="Open Sans" Id="50c1e15c-c9ee-4ec0-b539-545c784e359f" Panel.Bounds="35,48,168{5,2147483647},31{5,2147483647}" />
+                                        <Button Text="add to map" FontSize="12" FontFamily="Open Sans" Id="a85e3b34-9202-46ba-9673-fef648082e00" Panel.Bounds="35,186,114{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="Blq blq blq" FontFamily="Open Sans" Id="5d0ab663-c494-4857-a6e4-ecc33b74f819" Panel.Bounds="35,49,5*{5,2147483647},5*{5,2147483647}" />
                                     </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/userMapPlayground.screen" Created="10/31/2017 14:45:12" Id="b20fb243-65cf-4a6f-ae22-f81a2ef385f4">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
                                 </Group>
                             </Add.Item>
                         </Add>
@@ -226,30 +221,8 @@
                             <Add.Item>
                                 <Group GroupName="Group" Id="7e761b71-06ec-46c1-9a5c-80de0ac45735" Panel.Bounds="125,298,0*,0*">
                                     <Group.Children>
-                                        <TextArea FontFamily="Open Sans" Id="d55ec413-d0d6-4a97-bef8-094069460ce9" Panel.Bounds="0,0,158{5,2147483647},205{5,2147483647}" />
-                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFFF2E2E" Id="0aa44b26-4915-4177-8683-c58c3755ea72" Panel.Bounds="9,87,23,22">
-                                            <Triangle.StartPoint>
-                                                <Point X="37" Y="-11" Id="318ec69e-1375-4395-9594-aeb23a3699e0" />
-                                            </Triangle.StartPoint>
-                                            <Triangle.Segments>
-                                                <Segment Id="7cafb144-3c0d-4ed4-b8df-07d2e5ab3ead">
-                                                    <Segment.EndPoint>
-                                                        <Point X="63" Y="-10" Id="51f1d8e9-99a0-4cf5-98cb-d697f8567a63" />
-                                                    </Segment.EndPoint>
-                                                </Segment>
-                                                <Segment Id="5c38d31c-c82a-43d9-a877-84d0b660bbe0">
-                                                    <Segment.EndPoint>
-                                                        <Point X="24" Y="37" Id="09b725d8-e4b0-407b-a64b-4e57c6d9c8a0" />
-                                                    </Segment.EndPoint>
-                                                </Segment>
-                                                <Segment Id="fd081968-c070-4206-a50b-bb6e26088bfa">
-                                                    <Segment.EndPoint>
-                                                        <Point X="37" Y="-11" Id="93d11fbf-d1f0-4815-a74b-3eecc8337ca8" />
-                                                    </Segment.EndPoint>
-                                                </Segment>
-                                            </Triangle.Segments>
-                                        </Triangle>
-                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFC0D5EF" Id="4a91301d-1f5a-4110-8b07-12338c1a8122" Panel.Bounds="9,151,23,22">
+                                        <TextArea FontFamily="Open Sans" Id="d55ec413-d0d6-4a97-bef8-094069460ce9" Panel.Bounds="0,0,158{5,2147483647},167{5,2147483647}" />
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFC0D5EF" Id="4a91301d-1f5a-4110-8b07-12338c1a8122" Panel.Bounds="9,131,23,22">
                                             <Triangle.StartPoint>
                                                 <Point X="37" Y="-11" Id="4e3e6c5a-cb34-400e-b290-fb884118016e" />
                                             </Triangle.StartPoint>
@@ -271,7 +244,7 @@
                                                 </Segment>
                                             </Triangle.Segments>
                                         </Triangle>
-                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFE3DDEA" Id="1ae3fe72-42bf-4cf9-8cb0-97924bea05fb" Panel.Bounds="9,128,23,22">
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFE3DDEA" Id="1ae3fe72-42bf-4cf9-8cb0-97924bea05fb" Panel.Bounds="9,108,23,22">
                                             <Triangle.StartPoint>
                                                 <Point X="37" Y="-11" Id="5ca4c654-88fc-4596-bab6-3162f76073bc" />
                                             </Triangle.StartPoint>
@@ -293,7 +266,7 @@
                                                 </Segment>
                                             </Triangle.Segments>
                                         </Triangle>
-                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FF75D181" Id="c77c3ce1-5058-4f33-90ed-648cf8a97776" Panel.Bounds="10,107,23,22">
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FF75D181" Id="c77c3ce1-5058-4f33-90ed-648cf8a97776" Panel.Bounds="10,87,23,22">
                                             <Triangle.StartPoint>
                                                 <Point X="37" Y="-11" Id="bf013bbd-e1cf-48b5-b590-b214c319f48c" />
                                             </Triangle.StartPoint>
@@ -317,10 +290,9 @@
                                         </Triangle>
                                         <Label RichText="Blq city center" FontSize="14" FontFamily="Open Sans" Id="cd390d67-0d34-496a-9ca9-594ee7547c9c" Panel.Bounds="10,21,5*{5,2147483647},5*{5,2147483647}" />
                                         <Label RichText="Visited by user" FontFamily="Open Sans" Id="9c616a5f-5164-4edd-b30d-5b7912fb41d6" Panel.Bounds="36,54,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="blq blq blq" FontSize="10" FontFamily="Open Sans" Id="563c627f-b5c9-46bc-a971-8188bed42cc3" Panel.Bounds="34,94,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="blq blq blq a lot of blq" FontSize="10" FontFamily="Open Sans" Id="b99e13dc-80b6-44a1-b0a9-8aeaf91c6cb5" Panel.Bounds="32,116,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="best blq in the city" FontSize="10" FontFamily="Open Sans" Id="40de416e-c03c-413f-9b6a-c97b3db74eb7" Panel.Bounds="29,138,5*{5,2147483647},5*{5,2147483647}" />
-                                        <Label RichText="blq museum" FontSize="10" FontFamily="Open Sans" Id="223962b6-d3f4-4ff5-a2ea-08259018b1f0" Panel.Bounds="30,161,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="blq blq blq a lot of blq" FontSize="10" FontFamily="Open Sans" Id="b99e13dc-80b6-44a1-b0a9-8aeaf91c6cb5" Panel.Bounds="32,96,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="best blq in the city" FontSize="10" FontFamily="Open Sans" Id="40de416e-c03c-413f-9b6a-c97b3db74eb7" Panel.Bounds="29,118,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="blq museum" FontSize="10" FontFamily="Open Sans" Id="223962b6-d3f4-4ff5-a2ea-08259018b1f0" Panel.Bounds="30,141,5*{5,2147483647},5*{5,2147483647}" />
                                         <Line Thickness="1" Background="#00FFFFFF" Id="f74cba67-bcda-4bbc-a835-55b1699a3e63" Panel.Bounds="21,74,120{1,2147483647},1{1,2147483647}">
                                             <Line.StartPoint>
                                                 <Point Id="b53f368a-724a-4fec-b2db-d258e4b3637d" />
@@ -409,6 +381,37 @@
                                         <Segment Id="3c7091c6-2c52-4f59-a602-ae613ef91717">
                                             <Segment.EndPoint>
                                                 <Point X="37" Y="-11" Id="7a5ae166-000f-4346-a81d-73b8150796c7" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Triangle.Segments>
+                                </Triangle>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="7e761b71-06ec-46c1-9a5c-80de0ac45735" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Label RichText="blq blq blq" FontSize="10" FontFamily="Open Sans" Id="563c627f-b5c9-46bc-a971-8188bed42cc3" Panel.Bounds="159,392,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="7e761b71-06ec-46c1-9a5c-80de0ac45735" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Triangle Thickness="1" IsClosed="True" RotationAngle="320.510859529387" Color="#FF000000" Background="#FFFF2E2E" Id="0aa44b26-4915-4177-8683-c58c3755ea72" Panel.Bounds="134,385,23,22">
+                                    <Triangle.StartPoint>
+                                        <Point X="37" Y="-11" Id="318ec69e-1375-4395-9594-aeb23a3699e0" />
+                                    </Triangle.StartPoint>
+                                    <Triangle.Segments>
+                                        <Segment Id="7cafb144-3c0d-4ed4-b8df-07d2e5ab3ead">
+                                            <Segment.EndPoint>
+                                                <Point X="63" Y="-10" Id="51f1d8e9-99a0-4cf5-98cb-d697f8567a63" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="5c38d31c-c82a-43d9-a877-84d0b660bbe0">
+                                            <Segment.EndPoint>
+                                                <Point X="24" Y="37" Id="09b725d8-e4b0-407b-a64b-4e57c6d9c8a0" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="fd081968-c070-4206-a50b-bb6e26088bfa">
+                                            <Segment.EndPoint>
+                                                <Point X="37" Y="-11" Id="93d11fbf-d1f0-4815-a74b-3eecc8337ca8" />
                                             </Segment.EndPoint>
                                         </Segment>
                                     </Triangle.Segments>

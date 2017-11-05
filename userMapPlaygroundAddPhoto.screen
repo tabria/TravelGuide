@@ -449,12 +449,28 @@
                         </Add>
                         <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
                             <Add.Item>
-                                <Button Text="Save" CornerRadius="10" FontFamily="Open Sans" Id="5c931409-407f-4ce0-bf80-f7521fa76853" Panel.Bounds="719,414,89{5,2147483647},24{5,2147483647}" />
+                                <Button Text="Save" CornerRadius="10" FontFamily="Open Sans" Id="5c931409-407f-4ce0-bf80-f7521fa76853" Panel.Bounds="719,414,89{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/userMapPlaygroundPicture.screen" Created="10/31/2017 14:30:56" Id="659a5ea9-9853-475e-8900-8c4a749d98a0">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
                             <Add.Item>
-                                <Button Text="Cancel" CornerRadius="10" FontFamily="Open Sans" Id="5b17c01d-2617-458f-a7b4-677da5842219" Panel.Bounds="814,414,89{5,2147483647},24{5,2147483647}" />
+                                <Button Text="Cancel" CornerRadius="10" FontFamily="Open Sans" Id="5b17c01d-2617-458f-a7b4-677da5842219" Panel.Bounds="814,414,89{5,2147483647},24{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/userMapPlayground.screen" Created="10/31/2017 14:16:02" Id="d3b759ee-e938-42b8-b11f-0090345a70be">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
