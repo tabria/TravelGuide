@@ -11,4 +11,4 @@ cvet - admin article CRUD - create, edit, delete article
 
 ivka - admin comments CRUD - create , edit, delete comments, manage map locations
 
-The project is in the TravelGuide.zip. Before pushing zip your project into TravelGuide.zip and then push
+The project is in the TravelGuide.zip. Before pushing,  zip your project into TravelGuide.zip and then push
