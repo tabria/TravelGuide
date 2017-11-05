@@ -1,0 +1,256 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="c48d816a-5140-444c-82bf-5cf99f647739">
+    <Page.Content>
+        <Content Width="1025" Height="767" Id="24be6738-594c-4520-81ac-9cba72cd7648">
+            <Content.Layers>
+                <Layer Id="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="585fd5ec-08ec-45d8-ae4d-626201b313c3" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="2a5aa4f8-a55f-456a-8f9f-38d2a84b7c13" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="d9b99e06-f757-4ea7-a37a-729f7aaf9ca9" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 07:19:30" Id="89d0fc2c-e4b1-4f46-84cd-02a5045c07b9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1b847515-faa3-4486-ac39-1e46abc20610">
+                    <KeyFrame.Operations>
+                        <Add Property="GuidesInfo.Guides" Target="d9b99e06-f757-4ea7-a37a-729f7aaf9ca9">
+                            <Add.Item>
+                                <Guide Position="-264" Id="edead77a-fa33-47d2-a17a-f66ab4ae0858" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Label RichText="What to see and do in Paris. A visit to a museum? A gourmet pause? An evening out at a cabaret? Discover the not-to-miss places and events around you!" FontFamily="Georgia" Id="06c43252-60af-405c-87cc-1b7658745446" Panel.Bounds="139,431,200{5,2147483647},71{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Image SourcePath="assets/paris_640x480.jpg" Id="32d24f1a-3af1-495c-9b24-a8a7afce80c4" Panel.Bounds="139,205,200{5,2147483647},216{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Label RichText="This is a quick trip to France, which should be the perfect combination of history, fun, and sun. &#xD;&#xA;&#xD;&#xA;There are many things that come to mind when I think of Paris. Food, wine, picnics by the Eiffel Tower, immaculate gardens, evening strolls… Paris is so picturesque and timeless. What I love most about the city is each individual neighborhood’s charm and quirks. No matter where you are, you’re sure to stumble upon a local spot that will quickly become a go-to during your visit (for me, it was the quintessential French bakery around the corner from our apartment!). Here are my tips for making the most of this classic European destination in five days time…" FontFamily="Georgia" Id="5adb5806-f76f-4086-b326-d23f80d78954" Panel.Bounds="352,205,623{5,2147483647},208{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Image SourcePath="assets/Seine-nuit-_-740x380-_-©-Thinkstock.jpg" Id="985eecf7-5fc3-45de-81a7-342dd0058c68" Panel.Bounds="352,329,339{5,2147483647},196{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart1.screenpart" Id="d30070bd-f2d3-4b25-ac34-c0f3d41ad1c8" Panel.Bounds="270,65,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="5c2ab94e-46bb-433b-b7a7-c7fc378575ed">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/01.StartIndex .screen" Created="11/05/2017 11:36:34" Id="eb55b94a-dbd7-4bfd-bc31-62f3efcc5c09">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="e3479762-050f-49f6-8fa1-cf70ef44be01">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/03.RegisterUser.screen" Created="11/05/2017 11:37:05" Id="0b237b3c-2c46-470a-93e4-d39d387a5787">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="d0d4ed94-db6a-4642-abea-9f1df341d6a2">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/04.Login.screen" Created="11/05/2017 11:37:19" Id="e0955bd1-f43f-461b-956e-3c6b424e1180">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="4f9d2ebe-43f8-4c51-8f43-eda9a7bedcdc">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/03.RegisterUser.screen" Created="11/05/2017 12:43:57" Id="5abc2dee-6954-424c-90f4-0b196660be59">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="fc556913-f7ab-49a4-9c53-0a630eaf0cc4" Panel.Bounds="139,517,0*,0*">
+                                    <Group.Children>
+                                        <MapMock MockType="Street Map" Id="a5572c08-4f3e-4cb0-b384-233071592471" Panel.Bounds="0,0,200{5,2147483647},200{5,2147483647}" />
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="91263dcc-fa0b-4156-af58-74ae55fd033f" Panel.Bounds="95,57,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="f9010d59-82b3-4166-a1a9-4fa87f917186" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="6cf6552e-70ec-467e-87c9-afdb6a116c09">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="edb34614-1858-4c0e-8d0a-315b3ada7357" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="75473455-610b-4214-aad4-e77991259147">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="68946762-adaa-4485-8908-1532b4040bc5" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="5421a5c9-5ee2-47ee-bba6-3eeb7877f61c">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="3275e86c-d95a-4b1e-9bcc-470034279384" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="5a562295-1aa3-4088-81ec-c1518d1f4580" Panel.Bounds="111,57,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="9ea25193-a7d2-46e5-b36d-3d184f37810f" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="9bdd374f-1a93-439f-a811-b600af70ae55">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="7d1a3c14-39a1-4e7b-9695-5314fe684705" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="a4c847bf-42bd-4cf9-822f-588fad59e634">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="f2d0137a-d28c-45c3-bb82-15c013157e1a" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="80d976ae-fb5c-4d83-b510-a27aff1ef1d3">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="cf652b7a-f6c3-4fbe-b82f-1a6a248e3519" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="b62a867f-703d-47b3-b8c5-fac0c136fe08" Panel.Bounds="103,49,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="969b91f1-9caa-470a-9fc0-af78cb64c1c5" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="b8206c2e-efef-4696-b784-9b76ef77a6ef">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="c7671b0f-1786-41b3-84dd-fd9a6624d7ce" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="8a7c414f-25f3-47a7-b7dd-5880d60c7470">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="0f8fd114-94f0-429a-aee8-9e8f799be2c5" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="143c7e48-4424-4288-911f-75de4c18bd3a">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="f90f925c-1def-4496-94c2-8fc441b4b618" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="198e58bd-837b-408a-8411-1eeade359427" Panel.Bounds="40,57,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="a60162d3-91d5-4123-b208-c1f6fa4470c0" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="12f54b16-58c2-47bb-b1a1-a96e62723caf">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="1c4e8e81-3173-4474-a7a3-005f8e92ec60" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="7866b050-f905-44ea-8b84-704dd46a780b">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="43ff0405-7667-4e12-9cef-a8dcfc07671a" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="006fcacc-8568-462f-9da3-fc51ed333e36">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="8d00461a-f3da-4828-8cde-fb5904cd45f4" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="bd901b39-13a4-4538-b749-1e24d7fb239d" Panel.Bounds="178,148,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="ea6ff213-cbcd-4bf7-a5ec-3bd87056bd46" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="f2424920-0b36-4f62-aa38-3ad04aaa1414">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="ac3dd872-b963-4526-ad39-fc700d86f928" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="8253c24a-1b5a-4e96-8799-5d12d772bece">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="52470127-6f93-44f1-bf16-6547114095e0" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="a7ff4798-f8fe-4859-9b53-4831392f71c2">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="81ffaf08-b712-4897-a70d-037fb75f6c99" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                        <Triangle Thickness="1" IsClosed="True" RotationAngle="189.718055601731" Background="#FFC40000" Id="de52efdb-50d7-41e1-8e2a-6de3e3a2ab69" Panel.Bounds="168,157,10,35">
+                                            <Triangle.StartPoint>
+                                                <Point X="30" Y="105" Id="f277e221-7fa0-4287-aabe-f0ccfc8f9e2c" />
+                                            </Triangle.StartPoint>
+                                            <Triangle.Segments>
+                                                <Segment Id="9f59e5c7-095e-430a-9bca-d31fae0a1a83">
+                                                    <Segment.EndPoint>
+                                                        <Point X="10" Y="-6" Id="58ee6eac-9d5d-4929-b4a0-4b4acdbc686a" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="1e2a6ef2-95dc-495b-820e-b9ed7e54cada">
+                                                    <Segment.EndPoint>
+                                                        <Point X="86" Y="7" Id="db2db004-613c-438b-90d5-c31ae04a7f80" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="cc304bc9-878d-46e4-8d65-238521c87218">
+                                                    <Segment.EndPoint>
+                                                        <Point X="30" Y="105" Id="895f2354-f047-4525-844a-45e77968e5a6" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Triangle.Segments>
+                                        </Triangle>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Label RichText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in eleifend purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec venenatis, velit sit amet porta dignissim, massa sem commodo ligula, id pharetra mi velit tincidunt velit. Nam tincidunt maximus nibh. Cras porttitor libero vitae purus efficitur, ac tempor nisi imperdiet. Morbi ac rhoncus purus. Praesent elementum interdum vulputate. Curabitur efficitur " FontFamily="Georgia" Id="2e724590-43f3-470f-8f40-255f8084b5ee" Panel.Bounds="709,328,228{5,2147483647},198{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Label RichText=" venenatis ligula at aliquet. Nam augue sapien, pellentesque et nibh id, consectetur rhoncus purus.  Nulla vitae tristique sem. Sed sit amet sapien nec diam viverra pulvinar. Mauris convallis odio id lorem gravida, condimentum venenatis odio vulputate. Proin porta id diam id mattis. Vestibulum at massa dolor. Praesent vulputate sapien magna, quis molestie justo posuere vitae. Nunc porta turpis at magna placerat, et tempus urna lobortis. Nunc et rutrum nunc. Sed vitae tortor ac sapien vulputate luctus. Cras ut pharetra orci. Maecenas a nulla eleifend, rhoncus erat porta, sagittis nisl. In ligula lorem, sagittis quis venenatis sit amet, consectetur vitae mauris. Suspendisse eget massa erat. Nunc gravida, lacus at tempor elementum, metus erat pulvinar erat, bibendum porta erat odio ut orci. Mauris vulputate sodales felis at sagittis.&#xD;&#xA;&#xD;&#xA;Praesent ut mattis augue, vitae pretium ex. Suspendisse nec eros magna. In tristique, dui et rutrum varius, purus quam feugiat nibh, et faucibus justo diam ac augue. Sed tristique, odio gravida lacinia feugiat, dolor magna porttitor urna, eget tempus massa lectus non nibh. Nulla luctus laoreet mattis. Phasellus efficitur, quam eget rutrum volutpat, massa orci aliquet est, eu efficitur massa nisi at leo. Nulla ut ultricies diam. In sapien lorem, cursus eget tellus vel, tempus euismod nisl. Aliquam nibh diam, finibus sed ante id, ultrices consectetur enim. Proin auctor ipsum id dui pharetra aliquet. Aliquam porttitor pulvinar purus, at dignissim enim scelerisque ac. Aliquam ultricies finibus dolor, in sodales massa eleifend at. " FontFamily="Georgia" Id="3de161bd-dce1-4cb3-95f6-2feb1a3c7e84" Panel.Bounds="352,533,644{5,2147483647},275{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Title RichText="Paris" FontFamily="Georgia" FontStyle="Italic" Id="eaa1b7df-94f7-4bd6-9242-ca3302c6eaf0" Panel.Bounds="511,131,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,58 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="84a61f6d-4e02-4cab-9ca4-110d5d7b23da" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="153" Height="326" Background="#00FFFFFF" Id="e7e2e689-fc01-429d-8b67-374a31eb855f">
+            <BorderedContent.Layers>
+                <Layer Id="9fe13e8f-f287-4ce8-8a46-0bb7466f1507" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="9b70f4ee-8a2f-4947-b376-55f64679aaab" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="dc52a373-5305-434e-a1e4-23e41dfd8fd5" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="a235095f-b213-4094-818f-6f2658d6a4b2" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/05/2017 09:42:21" Id="a4298c0b-6691-4dbd-855e-9bb62593f6e2">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2bb1bc8d-18e4-49c8-9315-9b9dc237257e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9fe13e8f-f287-4ce8-8a46-0bb7466f1507">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="518c21b2-7a48-4de8-a24a-1070ff6e2701">
+                                    <Group.Children>
+                                        <Rectangle CornerRadius="0" Opacity="1" Id="13093219-89c2-47cd-a14a-732636758842" Panel.Bounds="0,0,153{5,2147483647},326{5,2147483647}" />
+                                        <Image SourcePath="assets/Seine-nuit-_-740x380-_-©-Thinkstock.jpg" Id="09600cdb-6891-4364-b4a1-1ccd773b35e6" Panel.Bounds="0,0,152{5,2147483647},195{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9fe13e8f-f287-4ce8-8a46-0bb7466f1507">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="cbcba217-1c73-4c55-ba82-c5af84f7c473" Panel.Bounds="6,186,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Paris" FontSize="14" FontFamily="Georgia" FontStyle="Italic|Bold" Id="14826c46-5b16-4787-83a4-b18db3de25a9" Panel.Bounds="1,12,125{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="Kris A" FontSize="14" FontFamily="Georgia" FontStyle="Italic|Underline" Id="b45f7198-a981-40d7-bc48-52872ee961b0" Panel.Bounds="1,39,30{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="This is a quick trip to France, which should be the perfect combination of history, fun, and sun. &#xD;&#xA;&#xD;&#xA;" FontFamily="Georgia" Id="85e95065-9bf2-4678-bdac-4c3e4681d331" Panel.Bounds="-1,62,148{5,2147483647},72{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9fe13e8f-f287-4ce8-8a46-0bb7466f1507">
+                            <Add.Item>
+                                <Link Text="visit blog" FontFamily="Georgia" FontStyle="Italic" Id="551a4587-191a-4d4c-b832-e03007a7d9b5" Panel.Bounds="54,307,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

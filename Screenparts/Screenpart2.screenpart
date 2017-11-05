@@ -1,0 +1,62 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="d94da146-ae22-412a-b0c2-c580c97c85b8" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="152" Height="344" Background="#00FFFFFF" Id="80945523-6806-4858-9536-80b4473c5770">
+            <BorderedContent.Layers>
+                <Layer Id="7dd58ec6-0dd6-4f93-a979-c804339862b5" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="dacb5f49-4d7e-405f-a172-34f9e313698c" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="c411069b-347b-4a78-89c1-811c0c2d8bfc" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="c1bf66ea-f280-4ea5-98af-b6ea6628b56c" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/05/2017 09:42:13" Id="0f5b5e31-18e8-4398-8bbd-bf893063ee20">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f4750af6-058e-439e-9774-98a728fcfa74">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Rectangle CornerRadius="0" Opacity="1" Id="65a18fa3-f91d-4086-b265-688071057bf1" Panel.Bounds="0,0,152{5,2147483647},344{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Image SourcePath="assets/Budapest.jpg" Id="6db4e0e9-603f-4a38-9826-2f057d200b23" Panel.Bounds="1,1,151{5,2147483647},209{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Label RichText="This is a quick trip to Hungary, which should be the perfect combination of history, fun, and sun. &#xD;&#xA;&#xD;&#xA;" FontFamily="Georgia" Id="b4c11331-2fc0-42b5-90f1-ad38205fe5b4" Panel.Bounds="1,264,151{5,2147483647},80{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Label RichText=" Budapest holidays" FontSize="14" FontFamily="Georgia" FontStyle="Italic|Bold" Id="a6dc5576-df0d-40b9-a4d3-3d449a2ad1a1" Panel.Bounds="1,212,151{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Label RichText="Alan Smith" FontSize="14" FontFamily="Georgia" FontStyle="Italic|Underline" Id="a2b04ecc-e8c8-4965-aeb4-cb2dc16f7cc5" Panel.Bounds="1,241,151{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7dd58ec6-0dd6-4f93-a979-c804339862b5">
+                            <Add.Item>
+                                <Link Text="visit blog" FontFamily="Georgia" FontStyle="Italic" Id="b39ca47f-83e3-4ac4-9bd7-1644a8b73c67" Panel.Bounds="53,329,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,69 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="c48d816a-5140-444c-82bf-5cf99f647739">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="24be6738-594c-4520-81ac-9cba72cd7648">
+            <Content.Layers>
+                <Layer Id="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="585fd5ec-08ec-45d8-ae4d-626201b313c3" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="2a5aa4f8-a55f-456a-8f9f-38d2a84b7c13" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="d9b99e06-f757-4ea7-a37a-729f7aaf9ca9" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 07:19:30" Id="89d0fc2c-e4b1-4f46-84cd-02a5045c07b9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1b847515-faa3-4486-ac39-1e46abc20610">
+                    <KeyFrame.Operations>
+                        <Add Property="GuidesInfo.Guides" Target="d9b99e06-f757-4ea7-a37a-729f7aaf9ca9">
+                            <Add.Item>
+                                <Guide Position="-264" Id="edead77a-fa33-47d2-a17a-f66ab4ae0858" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Title RichText="Thank you for using out Travel Guide" Id="79a7293a-7736-4265-b24f-289dd12614b1" Panel.Bounds="220,224,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <GaugeMock MockType="Radial Gauge" Id="4f410806-25c4-4441-a9cd-d527b2a5498b" Panel.Bounds="447,305,130{5,2147483647},130{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <Title RichText="redirecting to home . . . . ." Id="f881a8e6-af65-47e7-b482-a60c799e32e4" Panel.Bounds="310,484,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="08dd5a2c-5b00-4b7e-93f7-02cb6b7c4d43">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart1.screenpart" Id="77918e5a-7598-4139-99bb-523830cfba19" Panel.Bounds="270,116,0*,0*">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="5c2ab94e-46bb-433b-b7a7-c7fc378575ed">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/01.StartIndex .screen" Created="11/05/2017 11:42:12" Id="cd4a4666-5c91-477b-b87c-f411b4aea381">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Remove Target="1cf2b01b-0569-4384-8471-f42ce08645d5" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

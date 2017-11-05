@@ -1,0 +1,145 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="86eff012-6771-4795-aef2-6948afa7a6d7" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="626" Height="26" Background="#00FFFFFF" Id="08d93781-87f3-42ff-9b5c-387c41471ed7">
+            <BorderedContent.Layers>
+                <Layer Id="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="28b91f6e-d8f4-46ab-8a51-0ba07cdceae1" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="83c570bf-afeb-47fa-95b9-ff48bab25247" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="e611f329-eb2b-47d0-9b7b-e11dd3c61222" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 13:18:29" Id="8774be63-1ec7-4fec-9915-d60457405a3f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="bd549f47-fbe9-466a-a0b0-fac16819fae1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="1f949639-927a-4e3f-ad5e-d2e2a75c0810" Panel.Bounds="-47,0,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="  home" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="5c2ab94e-46bb-433b-b7a7-c7fc378575ed" Panel.Bounds="47,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="4" Background="#00FFFFFF" Id="2e2e3394-2b09-4291-978d-8d1013a7f87f" Panel.Bounds="48,22,61,4">
+                                            <Line.StartPoint>
+                                                <Point Id="dcb4c40f-47b5-4967-9dcd-f151af60de9e" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="65c25dfd-a902-4c3a-a8a0-5f3e76d87270">
+                                                    <Segment.EndPoint>
+                                                        <Point X="120" Id="b0103110-f402-4e5d-83ee-0106d903d0ba" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Link Text="manage articles " Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="eb0dc11e-73eb-42ad-8013-ab1d6d571851" Panel.Bounds="70,0,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/Manage Articles List.screen" Created="10/31/2017 13:03:18" Id="f2ac6116-9be0-4799-91d6-003477d24b37">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" Direction="None" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Line Thickness="4" Background="#00FFFFFF" Id="ee0bc369-5762-4f98-96b6-0ae2ae508a17" Panel.Bounds="63,22,135,4">
+                                    <Line.StartPoint>
+                                        <Point Id="cc6df732-96ea-48d9-9a49-42174f47b9b6" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="f28f95b5-1db6-492b-8314-4e3f637f1dfd">
+                                            <Segment.EndPoint>
+                                                <Point X="120" Id="22e80a94-b88d-47c3-860a-349c361e4ceb" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="742d018e-37eb-475d-9ee1-93ab53b95e2b" Panel.Bounds="173,-1,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="manage comments " Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="3112d832-ba00-4c5e-a182-63da1390ad4f" Panel.Bounds="32,1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="4" Background="#00FFFFFF" Id="dc847b51-3c56-4e93-8969-de89798a793d" Panel.Bounds="26,23,160,4">
+                                            <Line.StartPoint>
+                                                <Point X="13" Id="5f2ed811-1df5-4078-a231-ffb144f440db" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="f1b1e6d3-38da-4ceb-9cbc-f745c0884dbf">
+                                                    <Segment.EndPoint>
+                                                        <Point X="171" Id="e96b2169-cc6d-47e1-8bfa-369b374768a5" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e3479762-050f-49f6-8fa1-cf70ef44be01" Panel.Bounds="334,-1,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="manage locations" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="4f9d2ebe-43f8-4c51-8f43-eda9a7bedcdc" Panel.Bounds="36,1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="4" Background="#00FFFFFF" Id="2cf598aa-2a41-457f-94f3-f459f13140ce" Panel.Bounds="29,23,148,4">
+                                            <Line.StartPoint>
+                                                <Point X="16" Id="7d65b189-98dd-4d82-b159-d6dad8939d06" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="1966633a-ec92-4b98-8390-ce72bf375df6">
+                                                    <Segment.EndPoint>
+                                                        <Point X="157" Id="f549df09-6c08-4fd2-963a-c9207003b23f" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4bd22eb8-bfb3-4bf5-b871-d3d4e29f3bf0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="d0d4ed94-db6a-4642-abea-9f1df341d6a2" Panel.Bounds="481,-1,0*,0*">
+                                    <Group.Children>
+                                        <Link Text="admin logout" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="d38a5021-433a-4d57-8fc2-e7f1cf4a38d3" Panel.Bounds="36,1,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Line Thickness="4" Background="#00FFFFFF" Id="2a4399f0-1b4f-4e70-8906-3460789e51f7" Panel.Bounds="31,23,114,4">
+                                            <Line.StartPoint>
+                                                <Point X="18" Id="70271649-bff6-40df-8d3b-d23205884cc0" />
+                                            </Line.StartPoint>
+                                            <Line.Segments>
+                                                <Segment Id="b047a3eb-4d11-410f-bee8-9a0b03bed637">
+                                                    <Segment.EndPoint>
+                                                        <Point X="128" Id="2a278d49-c502-4daf-98f1-e5c5bd40418d" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Line.Segments>
+                                        </Line>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
